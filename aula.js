@@ -1,10 +1,2 @@
-console.log ("mais nada") 
-console.log ("nova linha")
 
-
-
-
-
-
-
-
+console.log("mais linha")
