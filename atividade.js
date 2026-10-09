@@ -34,4 +34,41 @@ console.log("Produto: ",nomeProduto);
 console.log("quantidade: ", quantidade);
 console.log("preço: ", preco);
 console.log("valor total: R$", valortotal.toFixed(2));
+} else {
+    console.log ("Pedido recusado");
+}
+
+//if(condicao){ se
+//console.log("pedido recusado");
+//} else if (codicao){
+//console.log("pedido recusado");
+//} else { SENÃO ("se tudo der errado")
+//console.log("pedido recussado")
+//}
+
+//EXEMPLOS
+//let produtos = [] //array vazio
+//produtos = ["Sanduiche", 4,"Hamburguer", "Coxinha", "Suco"]
+//let tamanho = produtos = produtos.leght // tamanho 4
+//console.log(produtos[2])
+
+//let pizza = [
+//{
+ //   id: 1,
+ //   sabor: "4 queijos",
+ //   estoque: 10,
+ //   tamanho: ["Grande", "media", "brotinho"],
+//},
+//{
+ //   id: 2,
+ //   sabor: "marguerita",
+ //   estoque: 8,
+ //   tamanho: ["Grande"],
+//},
+//];
+
+let condicao = 1
+while (condicao < 5) {
+    console.log("mostrar valor")
+    condicao++
 }
